@@ -27,7 +27,7 @@ var (
 	outValueSlice   []attribute.Value
 	outMap          []attribute.KeyValue
 )
-
+// comment
 func benchmarkEmit(kv attribute.KeyValue) func(*testing.B) {
 	return func(b *testing.B) {
 		b.ReportAllocs()
